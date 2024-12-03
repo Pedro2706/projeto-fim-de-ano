@@ -1,0 +1,102 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+#header {
+    background-color: #b70d18; /* Cor de fundo vibrante */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#h1-header {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.h3-header {
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-weight: lighter;
+}
+
+/* Navegação */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease; /* Efeito de transição suave */
+}
+
+ul li a:hover {
+    color: #ffe600; /* Cor amarela no hover */
+}
+
+/* Estilos para o conteúdo principal */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2em;
+    color: #ff5733;
+}
+
+.content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content strong {
+    color: #ff5733;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    #h1-header {
+        font-size: 2em;
+    }
+
+    .h3-header {
+        font-size: 1em;
+    }
+
+    ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .content p {
+        font-size: 1em;
+    }
+}
+
+
+.desc{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 1.3em;
+}

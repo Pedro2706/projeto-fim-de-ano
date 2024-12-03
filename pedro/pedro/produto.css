@@ -1,0 +1,86 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(49, 49, 49);
+    color: aliceblue;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    display: flex;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+ 
+
+
+/* Pizza section */
+.pizza-section {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+
+.pizza-item {
+    margin: 10px;
+    text-align: center;
+    display: flex;
+}
+
+.pizza-item img {
+    border-radius: 5px;
+    
+}
+
+/* Beverage section */
+.beverage-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.beverage-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.beverage-item img {
+    border-radius: 5px;
+    height: 100px;
+}
+
+/* Dessert section */
+.dessert-section {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+
+.dessert-item {
+    margin: 10px;
+}
+
+.dessert-item img {
+    border-radius: 5px;
+}
+
+/* Button */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
