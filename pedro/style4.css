@@ -1,0 +1,101 @@
+/* Adicione seu estilo personalizado aqui */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #b70d18;
+  height: 1vh;
+}
+#logo{
+height: 80px;
+}
+header {
+  background-color: #b70d18;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+  
+}
+
+li{
+text-decoration: none;
+}
+
+/* Estilize o carrossel, o main e o footer aqui */
+.carrossel-container {
+  max-width: 800px; /* Ajuste a largura máxima conforme necessário */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel {
+  /* Adjust width and height as needed */
+  width: 700px;
+  height: 400px;
+  margin-top: 0;
+}
+img{
+  height: 500px;
+}
+.contest{
+  background-color: #b70d18;
+  height: 550px;
+ 
+}
+.carousel-item {
+  /* Adjust background image, text color, etc. */
+  background-image: url("image1.jpg");
+  color: white;
+  text-shadow: 0 0 3px black;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  /* Adjust color, hover effects, etc. */
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+}
+.carousel-indicators {
+  /* Change position, color, etc. */
+  bottom: -50px;
+}
+
+.carousel-indicators li {
+  /* Change size, background color, etc. */
+  width: 20px;
+  height: 20px;
+  background-color: #ddd;
+}
+
+.carousel-indicators li.active {
+  /* Change style for active indicator */
+  background-color: #007bff;
+}
+
+.carousel-caption {
+  /* Change position, text properties, etc. */
+  bottom: 30%;
+  text-align: center;
+}
+section{
+background-color: #b70d18;
+
+}
+footer{
+  background-color: #b70d18;
+  display: flex;
+  margin-bottom: 0;
+}
